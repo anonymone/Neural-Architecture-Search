@@ -1,0 +1,5 @@
+# documents
+.vscode/
+
+# files
+*.pyc
