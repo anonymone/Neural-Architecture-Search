@@ -1,6 +1,7 @@
 '''
 [INTRO] DTLZ1 is an M-objective problems with a linear  Pareto-optimal front.
 [REFERRENCE]: Deb, Kalyanmoy, et al. Scalable Test Problems for Evolutionary Multiobjective Optimization. Evolutionary Multiobjective Optimization. 2005:105-145.
+[CONTRIBUTION OF CODE] Severus Peng
 '''
 
 import numpy as np
