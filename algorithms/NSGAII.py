@@ -16,7 +16,13 @@ def is_dominate(p,q):
         return True
     else:
         return False
-        
+
+def sort(p):
+    return p
+
+def normalized(p):
+    return p
+
 # fast non-dominate sorting 
 # INPUT: population of solutions
 # OUTPUT: 
@@ -50,3 +56,10 @@ def fast_non_dominated_sort(population_value):
         i = i + 1
         Fi[i] = Q
     return Fi, Prank
+
+def crowding_distance(solutions):
+    len = solutions.shape[0]
+    distance_i = np.zeros(len)
+    solutions =  sort(normalized(solutions))
+    for i in solutions:
+        pass
