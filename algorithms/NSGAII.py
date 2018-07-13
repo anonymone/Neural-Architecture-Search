@@ -60,6 +60,9 @@ def fast_non_dominated_sort(population_value):
 def crowding_distance(solutions):
     len = solutions.shape[0]
     distance_i = np.zeros(len)
-    solutions =  sort(normalized(solutions))
-    for i in solutions:
-        pass
+    distance_i[0] = distance_i[-1] = np.inf
+    for i in range(len):
+        rank =  sort(normalized(solutions[:,i]))
+        for j in [x+1 for x in range(len-2)]:
+            distance_i[rank[j]] = distance_i[rank[j]] + (solutions[rank[j+1],i]-solutions[rank[j-1],i])/(np.max(solutions[:,i])-np.min(solutions[:,i]))
+    return distance_i
