@@ -1,21 +1,27 @@
 '''
-[INTRO] 
-[REFERRENCE]: 
-[CONTRIBUTION OF CODE] Severus Peng
+[INTRO] a nondominated sorting-based multiobjective EA (MOEA), called nondominated sorting genetic algorithm II (NSGA-II)
+[REFERRENCE]: Deb, K., et al. "A fast and elitist multiobjective genetic algorithm: NSGA-II." IEEE Transactions on Evolutionary Computation 6.2(2002):182-197.
+[CONTRIBUTOR OF CODE] Severus Peng
 '''
 
 import numpy as np
 
+# domination testing 
+# INPUT: two same-scale solutions p & q
+# OOUTPUT: Boolean True  is p  < q, 
+#                  False is p !< q
 def is_dominate(p,q):
-    # if p is None or q is None:
-    #     return False
     tag = p < q
     if tag.all():
         return True
     else:
         return False
         
-
+# fast non-dominate sorting 
+# INPUT: population of solutions
+# OUTPUT: 
+#          Fi with indexs of population 
+#          population table of relating Fi number
 def fast_non_dominated_sort(population_value):
     Sp = dict()
     Np = np.zeros(population_value.shape[0])
@@ -26,20 +32,21 @@ def fast_non_dominated_sort(population_value):
         Sp[p] = list()
         for q in range(population_value.shape[0]):
             if is_dominate(population_value[p],population_value[q]):
-                Sp[p].append(population_value[q])
-            else:
-                Np[p] = Np[p] + 1
+                Sp[p].append(q)
+            if is_dominate(population_value[q],population_value[p]):
+                Np[p] = Np[p] + 1         
         if Np[p] == 0:
             Prank[p] = 1 
-            Fi[1].append(population_value[p])
+            Fi[1].append(p)
     i = 1 
-    while Fi[i] == []:
+    while Fi[i] != []:
         Q = list()
-        for p in range(len(Fi[1])):
-            for q in range(len(Sp[p])):
+        for p in Fi[i]:
+            for q in Sp[p]:
                 Np[q] = Np[q] - 1
                 if Np[q] == 0:
                     Prank[q] = i + 1
-                    Q.append(Sp[p][q])
+                    Q.append(q)
         i = i + 1
         Fi[i] = Q
+    return Fi, Prank
