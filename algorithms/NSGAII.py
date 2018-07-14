@@ -51,7 +51,7 @@ def crowding_distance(solutions):
     for i in range(len_m):
         solut_value ,rank =  tools.sort(tools.normalized(solutions[:,i]))
         distance_i[rank[0]] = np.Inf
-        distance_i[rank[-1]] = np.inf
+        distance_i[rank[-1]] = np.Inf
         for j in [x+1 for x in range(len-2)]:
             distance_i[rank[j]] = distance_i[rank[j]] + (solutions[rank[j+1],i]-solutions[rank[j-1],i])/(np.max(solutions[:,i])-np.min(solutions[:,i]))
     return distance_i
