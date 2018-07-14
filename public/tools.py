@@ -34,3 +34,18 @@ def sort(p):
 def normalized(p):
     p = (p - np.min(p))/(np.max(p)-np.min(p))
     return p.reshape(p.shape[0],1)
+
+def mating_pool(population, popu_rank, crow_distance):
+    pool = np.zeros(population.shape)
+    for i in range(int(population.shape[0])):
+        select1,select2 = np.random.randint(0,population.shape[0]-1,2)
+        if popu_rank[select1] < popu_rank[select2]:
+            pool[i,:] = population[select1, :]
+        elif popu_rank[select1] > popu_rank[select2]:
+            pool[i,:] = population[select2, :]
+        else:
+            if crow_distance[select1] > crow_distance[select2]:
+               pool[i,:] = population[select1,:]
+            else:
+                pool[i,:] = population[select2,:]
+    return pool
