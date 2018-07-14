@@ -5,23 +5,7 @@
 '''
 
 import numpy as np
-
-# domination testing 
-# INPUT: two same-scale solutions p & q
-# OOUTPUT: Boolean True  is p  < q, 
-#                  False is p !< q
-def is_dominate(p,q):
-    tag = p < q
-    if tag.all():
-        return True
-    else:
-        return False
-
-def sort(p):
-    return p
-
-def normalized(p):
-    return p
+from public import tools
 
 # fast non-dominate sorting 
 # INPUT: population of solutions
@@ -37,9 +21,9 @@ def fast_non_dominated_sort(population_value):
     for p in range(population_value.shape[0]):
         Sp[p] = list()
         for q in range(population_value.shape[0]):
-            if is_dominate(population_value[p],population_value[q]):
+            if tools.is_dominate(population_value[p],population_value[q]):
                 Sp[p].append(q)
-            if is_dominate(population_value[q],population_value[p]):
+            if tools.is_dominate(population_value[q],population_value[p]):
                 Np[p] = Np[p] + 1         
         if Np[p] == 0:
             Prank[p] = 1 
@@ -57,12 +41,17 @@ def fast_non_dominated_sort(population_value):
         Fi[i] = Q
     return Fi, Prank
 
+# crowding distance 
+# INPUT: solutions with type of ndarray
+# OUTPUT: related distanc row vector
 def crowding_distance(solutions):
     len = solutions.shape[0]
+    len_m = solutions.shape[1]
     distance_i = np.zeros(len)
-    distance_i[0] = distance_i[-1] = np.inf
-    for i in range(len):
-        rank =  sort(normalized(solutions[:,i]))
+    for i in range(len_m):
+        solut_value ,rank =  tools.sort(tools.normalized(solutions[:,i]))
+        distance_i[rank[0]] = np.Inf
+        distance_i[rank[-1]] = np.inf
         for j in [x+1 for x in range(len-2)]:
             distance_i[rank[j]] = distance_i[rank[j]] + (solutions[rank[j+1],i]-solutions[rank[j-1],i])/(np.max(solutions[:,i])-np.min(solutions[:,i]))
     return distance_i
