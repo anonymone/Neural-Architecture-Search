@@ -1,9 +1,11 @@
 from problems import DTLZ1
 from algorithms import NSGAII
+from public import tools
 import numpy as np
 if __name__ == "__main__":
     problem = DTLZ1.DTLZ1(M=3)
-    population, boundary, coding = problem.init(generation_size=1000)
+    population, boundary, coding = problem.init(generation_size=100)
+    print('population = \n{0}'.format(population))
     func_value = problem.value(population)
 
     # func_value = [ [39.45757807, 109.22284033], 
@@ -23,3 +25,5 @@ if __name__ == "__main__":
     print('Rank = \n{0}'.format(rank))
     crowd_distance = NSGAII.crowding_distance(func_value)
     print('crowd_distance = \n{0}'.format(crowd_distance))
+    mating_p = tools.mating_pool(population,rank,crowd_distance)
+    print('mating_p = \n{0}'.format(mating_p))
