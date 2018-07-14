@@ -49,3 +49,6 @@ def mating_pool(population, popu_rank, crow_distance):
             else:
                 pool[i,:] = population[select2,:]
     return pool
+
+def cross_over():
+    pass
