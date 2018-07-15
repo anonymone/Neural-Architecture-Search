@@ -1,4 +1,4 @@
-# Evolution Algorithm rope  
+# Evolution Algorithm repo  
 This repo includes some classical evolution algorithms and testing problems. And it is devoloping in process.
 
 # How to use it(Developing)  
