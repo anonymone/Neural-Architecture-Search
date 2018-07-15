@@ -2,31 +2,49 @@ from problems import DTLZ1
 from algorithms import NSGAII
 from public import tools
 import numpy as np
+import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
-    problem = DTLZ1.DTLZ1(M=3)
-    population, boundary, coding = problem.init(generation_size=10)
-    print('population = \n{0}'.format(population))
-    func_value = problem.value(population)
-    print('func_value = \n{0}'.format(func_value))
-    Front, rank = NSGAII.fast_non_dominated_sort(func_value)
-    print('Rank = \n{0}'.format(rank))
-    crowd_distance = NSGAII.crowding_distance(func_value)
-    print('crowd_distance = \n{0}'.format(crowd_distance))
-    mating_p = tools.mating_pool(population, rank, crowd_distance)
-    print('mating_p = \n{0}'.format(mating_p))
-    offspring = tools.real_cross_over(parent=mating_p)
-    offspring = tools.real_mutation(offspring, boundary)
-    print("offspring = \n{0}".format(offspring))
+    plt.ion()
+    plt.xlim([0,1])
+    plt.ylim([0,1])
 
-    # func_value = [ [39.45757807, 109.22284033],
-    #                 [2.86965248,  91.65383822],
-    #                 [229.9125652,   33.88312065],
-    #                 [175.35145278, 196.53583365],
-    #                 [143.62980809, 123.4551886],
-    #                 [68.24446104, 203.41141973],
-    #                 [363.35745327,  36.28574311],
-    #                 [56.44501436, 253.76417207],
-    #                 [187.71003021,  34.78490607],
-    #                 [155.58596971, 56.68474627]]
-    # func_value = np.array(func_value)
+    problem = DTLZ1.DTLZ1(M=3)
+    algorithm = NSGAII
+    generations = 1000
+    N = 100
+    M = 2
+    k = 5
+    problem = DTLZ1.DTLZ1(k=k,M=M)
+    population, boundary, coding = problem.init(generation_size=N) 
+    for i in range(generations):
+        # print('generations:{0}'.format(i))
+        func_value = problem.value(population)
+        # if i%1 == 0:
+        func_value_normal = tools.normalized(func_value)
+        plt.cla()
+        plt.scatter(func_value_normal[:,0],func_value_normal[:,1])
+        plt.show()
+        plt.pause(0.00001)
+
+        Front, rank = algorithm.fast_non_dominated_sort(func_value)
+        crowd_distance = algorithm.crowding_distance(func_value)
+        mating_p = tools.mating_pool(population, rank, crowd_distance)
+        offspring = tools.real_cross_over(parent=mating_p)
+        # offspring = tools.real_mutation(offspring, boundary)
+
+        parent_offspring = np.vstack([population,offspring])
+        func_value = problem.value(parent_offspring)
+        Front, rank = algorithm.fast_non_dominated_sort(func_value)
+        counter = 0
+        new_generation_index = list()
+        for i in Front:
+            counter = counter + len(Front[i])
+            if counter > N:
+                counter = i
+                break
+            new_generation_index.extend(Front[i])
+        crowd_distance = algorithm.crowding_distance(func_value[Front[counter],:])
+        crowd_distance_index = np.argsort(crowd_distance)
+        new_generation_index.extend(crowd_distance_index[0:(N-len(new_generation_index))])
+        population = parent_offspring[new_generation_index,:]
