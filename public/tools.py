@@ -34,13 +34,20 @@ def sort(p):
 
 # normalized
 # INPUT: a ndarray
-# OUTPUT: normalized ndarray
+# OUTPUT: normalized ndarray vector
 
 
-def normalized(p):
+def normalized_vector(p):
     p = (p - np.min(p))/(np.max(p)-np.min(p))
     return p.reshape(p.shape[0], 1)
 
+
+# normalized
+# INPUT: a ndarray
+# OUTPUT: normalized ndarray
+def normalized(p):
+    p = (p - np.min(p))/(np.max(p)-np.min(p))
+    return p
 # mating pool
 # INPUT: population:     ndarray
 #        pop_rank:       ndarray row vector
@@ -95,19 +102,19 @@ def real_cross_over(parent, proC=1, disC=20):
 # OUTPUT:offspring: ndarray
 
 
-def real_mutation(parent, boundary, proM=1, disM=20):
+def real_mutation(parent, boundary, proM=1, disM=10):
     offspring = parent
     N, M = parent.shape
-    lower = np.tile(boundary[0], [N, 1])
-    upper = np.tile(boundary[1], [N, 1])
+    lower = np.tile(boundary[1], [N, 1])
+    upper = np.tile(boundary[0], [N, 1])
     position = np.random.rand(N, M) < (proM/M)
     mu = np.random.rand(N, M)
     sweap = position & (mu <= 0.5)
     sweap_index = np.where(sweap == True)
     offspring[sweap_index] = offspring[sweap_index] + (upper[sweap_index]-lower[sweap_index])*((2*mu[sweap_index]+(
-        1-2*mu[sweap_index])))*(1-(offspring[sweap_index]-lower[sweap_index])/(upper[sweap_index]-lower[sweap_index]))**(disM+1)**(1/(disM+1)-1)
+        1-2*mu[sweap_index]))*(1-(offspring[sweap_index]-lower[sweap_index])/(upper[sweap_index]-lower[sweap_index]))**(disM+1))**(1/(disM+1)-1)
     sweap = position & (mu > 0.5)
     sweap_index = np.where(sweap == True)
     offspring[sweap_index] = offspring[sweap_index] + (upper[sweap_index]-lower[sweap_index])*(1-(2*(1-mu[sweap_index])+(
-        2*mu[sweap_index]-0.5)))*(1-(upper[sweap_index]-offspring[sweap_index])/(upper[sweap_index]-lower[sweap_index]))**(disM+1)**(1/(disM+1)-1)
+        2*mu[sweap_index]-0.5))*(1-(upper[sweap_index]-offspring[sweap_index])/(upper[sweap_index]-lower[sweap_index]))**(disM+1))**(1/(disM+1)-1)
     return offspring

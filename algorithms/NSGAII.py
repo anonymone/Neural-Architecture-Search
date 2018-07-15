@@ -45,7 +45,7 @@ def fast_non_dominated_sort(population_value):
 
 # crowding distance
 # INPUT: solutions with type of ndarray
-# OUTPUT: related distanc row vector
+# OUTPUT: related distance row vector
 
 
 def crowding_distance(solutions):
@@ -53,7 +53,7 @@ def crowding_distance(solutions):
     len_m = solutions.shape[1]
     distance_i = np.zeros(len)
     for i in range(len_m):
-        solut_value, rank = tools.sort(tools.normalized(solutions[:, i]))
+        solut_value, rank = tools.sort(tools.normalized_vector(solutions[:, i]))
         distance_i[rank[0]] = np.Inf
         distance_i[rank[-1]] = np.Inf
         for j in [x+1 for x in range(len-2)]:
