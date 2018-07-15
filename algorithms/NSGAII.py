@@ -7,11 +7,13 @@
 import numpy as np
 from public import tools
 
-# fast non-dominate sorting 
+# fast non-dominate sorting
 # INPUT: population of solutions
-# OUTPUT: 
-#          Fi with indexs of population 
+# OUTPUT:
+#          Fi with indexs of population
 #          population table of relating Fi number
+
+
 def fast_non_dominated_sort(population_value):
     Sp = dict()
     Np = np.zeros(population_value.shape[0])
@@ -21,14 +23,14 @@ def fast_non_dominated_sort(population_value):
     for p in range(population_value.shape[0]):
         Sp[p] = list()
         for q in range(population_value.shape[0]):
-            if tools.is_dominate(population_value[p],population_value[q]):
+            if tools.is_dominate(population_value[p], population_value[q]):
                 Sp[p].append(q)
-            if tools.is_dominate(population_value[q],population_value[p]):
-                Np[p] = Np[p] + 1         
+            if tools.is_dominate(population_value[q], population_value[p]):
+                Np[p] = Np[p] + 1
         if Np[p] == 0:
-            Prank[p] = 1 
+            Prank[p] = 1
             Fi[1].append(p)
-    i = 1 
+    i = 1
     while Fi[i] != []:
         Q = list()
         for p in Fi[i]:
@@ -41,17 +43,20 @@ def fast_non_dominated_sort(population_value):
         Fi[i] = Q
     return Fi, Prank
 
-# crowding distance 
+# crowding distance
 # INPUT: solutions with type of ndarray
 # OUTPUT: related distanc row vector
+
+
 def crowding_distance(solutions):
     len = solutions.shape[0]
     len_m = solutions.shape[1]
     distance_i = np.zeros(len)
     for i in range(len_m):
-        solut_value ,rank =  tools.sort(tools.normalized(solutions[:,i]))
+        solut_value, rank = tools.sort(tools.normalized(solutions[:, i]))
         distance_i[rank[0]] = np.Inf
         distance_i[rank[-1]] = np.Inf
         for j in [x+1 for x in range(len-2)]:
-            distance_i[rank[j]] = distance_i[rank[j]] + (solutions[rank[j+1],i]-solutions[rank[j-1],i])/(np.max(solutions[:,i])-np.min(solutions[:,i]))
+            distance_i[rank[j]] = distance_i[rank[j]] + (solutions[rank[j+1], i]-solutions[rank[j-1], i])/(
+                np.max(solutions[:, i])-np.min(solutions[:, i]))
     return distance_i
