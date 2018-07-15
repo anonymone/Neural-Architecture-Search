@@ -46,5 +46,5 @@ if __name__ == "__main__":
             new_generation_index.extend(Front[i])
         crowd_distance = algorithm.crowding_distance(func_value[Front[counter],:])
         crowd_distance_index = np.argsort(crowd_distance)
-        new_generation_index.extend(crowd_distance_index[0:(N-len(new_generation_index))])
+        new_generation_index.extend(crowd_distance_index[(len(crowd_distance_index)-(N-len(new_generation_index))):])
         population = parent_offspring[new_generation_index,:]
