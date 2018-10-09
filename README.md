@@ -12,9 +12,9 @@
 
 
 ## Table of contents
-* [1. NAS introdction](#1.Introduction)
-* [2. NAS reviews](#2.Reviews)
-* [3. NAS Papers](#3.Papers)
+* [1. NAS introdction](#1introduction)
+* [2. NAS reviews](#2reviews)
+* [3. NAS Papers](#3papers)
 * 4.Code
 * 5.Dataset
 
