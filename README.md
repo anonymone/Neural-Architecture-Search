@@ -1,14 +1,14 @@
 # Network Architecture Search 
 
-## Introductory tutorial
-* Machine Learnig  
+## Newcomer tutorials 
 * Evolution Algorithm
     - [莫烦Python 进化算法 简介](https://morvanzhou.github.io/tutorials/machine-learning/evolutionary-algorithm/1-01-intro/) 
     - [A fast and elitist multiobjective genetic algorithm: NSGA-II](https://ieeexplore.ieee.org/document/996017)  
     NSGAII is the most popular Evolution algorithm. And it's also the best EA paper for newcomer.(Because I did this LOL.)  
     And you can find NAGAII and Other EA's code [HERE](./Code/).
-* Reinforcement Learning
-* AutoML
+* AutoML & NAS
+    - [Everything you need to know about AutoML and Neural Architecture Search](https://towardsdatascience.com/everything-you-need-to-know-about-automl-and-neural-architecture-search-8db1863682bf)  
+    If you are in China, you have to browse this webpage by using some magic-you-known tools(VPN). But worth for it.
 
 
 ## Table of contents
@@ -30,13 +30,11 @@ This is the latest review of NAS.
 1. EA(GA) + NAS
     -  2017.03.04  [Genetic CNN](http://cn.arxiv.org/abs/1703.01513)  
     This paper is the first paper I read in structure searching area. In this paper, Xie had proposed a simple way to encode the network's structure(with some drawbacks).And using GA as a auto-design tool to find high performance structure of CNNs. [[Code]](https://github.com/aqibsaeed/Genetic-CNN)  
-    
-
-1. RL + NAS  
-(None)
 
 1. arXiv
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
-    This paper proposed a new idea removing oldest individual rather than worest performance individual in order to recive wider search ability.
+    This paper proposed a new idea removing oldest individual rather than worest performance individual in order to recive wider search ability.  
+
+1. Translation lgtm articles
 
 
