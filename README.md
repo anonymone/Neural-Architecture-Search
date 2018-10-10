@@ -32,9 +32,14 @@ This is the latest review of NAS.
     This paper is the first paper I read in structure searching area. In this paper, Xie had proposed a simple way to encode the network's structure(with some drawbacks).And using GA as a auto-design tool to find high performance structure of CNNs. [[Code]](https://github.com/aqibsaeed/Genetic-CNN)  
 
 1. arXiv
+    - 2018.02.12 [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/abs/1802.03268)  
+    This paper proposed a idea of boosting training process by applying transfer learning. This work's base assumption is that Transfer learning can obtain a not-bad model in limited time.
+    You can find a unofficial repetition [[Code]](https://github.com/melodyguan/enas)
+
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
     This paper proposed a new idea removing oldest individual rather than worest performance individual in order to recive wider search ability.  
 
-1. Translation lgtm articles
+1. Translation lgtm articles  
+None
 
 
