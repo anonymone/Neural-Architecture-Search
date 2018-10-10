@@ -42,4 +42,15 @@ This is the latest review of NAS.
 1. Translation lgtm articles  
 None
 
+## Citations
+If this is a lgtm repo which you want to use, please consider citing our paper.
+
+
+```
+@Misc{Network Architecture Search Notebook
+    title = {Network Architecture Search Notebook},
+    author = {Severus, peng},  
+}
+```
+
 
