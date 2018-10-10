@@ -37,7 +37,7 @@ This is the latest review of NAS.
     You can find a unofficial repetition [[Code]](https://github.com/melodyguan/enas)
 
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
-    This paper proposed a new idea removing oldest individual rather than worest performance individual in order to recive wider search ability.  
+    This paper proposed a new idea removing oldest individual rather than worest performance individual in order to gain wider search ability.  
 
 1. Translation lgtm articles  
 None
