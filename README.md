@@ -43,13 +43,13 @@ This is the latest review of NAS.
 None
 
 ## Citations
-If this is a lgtm repo which you want to use, please consider citing our paper.
+If this is a lgtm repo which you want to use, please consider citing our repo as follows:
 
 
 ```
 @Misc{Network Architecture Search Notebook
     title = {Network Architecture Search Notebook},
-    author = {Severus, peng},  
+    author = {Shichen, peng},  
 }
 ```
 
