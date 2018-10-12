@@ -27,14 +27,22 @@ In NAS, We can divide it into EA(GA) + NAS, RL + NAS(and so on...I am going to s
 This is the latest review of NAS.
 
 ## 3.Papers
-1. EA(GA) + NAS
-    -  2017.03.04  [Genetic CNN](http://cn.arxiv.org/abs/1703.01513)  
-    This paper is the first paper I read in structure searching area. In this paper, Xie had proposed a simple way to encode the network's structure(with some drawbacks).And using GA as a auto-design tool to find high performance structure of CNNs. [[Code]](https://github.com/aqibsaeed/Genetic-CNN)  
-
-1. arXiv
-    - 2018.02.12 [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/abs/1802.03268)  
+1. Read notes
+    - 2018.02.12, ICML2018, [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/abs/1802.03268)  
     This paper proposed a idea of boosting training process by applying transfer learning. This work's base assumption is that Transfer learning can obtain a not-bad model in limited time.
     You can find a unofficial repetition [[Code]](https://github.com/melodyguan/enas)
+
+    - 2017.03.04, ICCV, [Genetic CNN](http://openaccess.thecvf.com/content_ICCV_2017/papers/Xie_Genetic_CNN_ICCV_2017_paper.pdf)  
+    This paper is the first paper I read in structure searching area. In this paper, Xie had proposed a simple way to encode the network's structure(with some drawbacks).And using GA as a auto-design tool to find high performance structure of CNNs. [[Code]](https://github.com/aqibsaeed/Genetic-CNN)  
+
+    - 2018.08.01 [Efficient Progressive Neural Architecture Search](https://arxiv.org/pdf/1808.00391.pdf)
+    
+1. arXiv
+    - 2018.08.30 [Searching Toward Pareto-Optimal Device-Aware Neural Architectures](https://arxiv.org/pdf/1808.09830.pdf)
+
+    - 2018.09.05 [Neural Architecture Optimization](https://arxiv.org/pdf/1808.07233.pdf)
+
+    - 2018.09.07 [Reinforced Evolutionary Neural Architecture Search](https://arxiv.org/pdf/1808.00193.pdf)
 
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
     This paper proposed a new idea removing oldest individual rather than worest performance individual in order to gain wider search ability.  
@@ -43,7 +51,7 @@ This is the latest review of NAS.
 None
 
 ## Citations
-If this is a lgtm repo which you want to use, please consider citing our repo as follows:
+If this is a lgtm repo which you want to use, please consider citing my repo as follows:
 
 
 ```
@@ -52,5 +60,3 @@ If this is a lgtm repo which you want to use, please consider citing our repo as
     author = {Shichen, peng},  
 }
 ```
-
-
