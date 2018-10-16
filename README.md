@@ -47,6 +47,9 @@ This is the latest review of NAS.
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
     This paper proposed a new idea removing oldest individual rather than worest performance individual in order to gain wider search ability.  
 
+    - 2018.10.08 [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/abs/1810.03522)  
+    This paper proposed a NAS framework based on MOEA. 
+
 1. Translation lgtm articles  
 None
 
