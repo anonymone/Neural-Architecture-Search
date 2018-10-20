@@ -27,7 +27,7 @@ In NAS, We can divide it into EA(GA) + NAS, RL + NAS(and so on...I am going to s
 This is the latest review of NAS.
 
 ## 3.Papers
-This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions!
+This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions! :cake:
 
 1. Read notes
     - 2018.02.12, ICML2018, [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/abs/1802.03268)  
