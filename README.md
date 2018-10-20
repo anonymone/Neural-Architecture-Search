@@ -55,6 +55,9 @@ This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions!
     
     - 2018.10.16 [Evolutionary Stochastic Gradient Descent for Optimization of Deep Neural Networks](https://arxiv.org/pdf/1810.06773.pdf)
 
+    - 2018.10.08 [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/abs/1810.03522)  
+    This paper proposed a NAS framework based on MOEA. 
+
 1. Translation lgtm articles  
 None
 
