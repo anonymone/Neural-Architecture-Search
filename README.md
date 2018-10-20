@@ -27,6 +27,8 @@ In NAS, We can divide it into EA(GA) + NAS, RL + NAS(and so on...I am going to s
 This is the latest review of NAS.
 
 ## 3.Papers
+This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions!
+
 1. Read notes
     - 2018.02.12, ICML2018, [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/abs/1802.03268)  
     This paper proposed a idea of boosting training process by applying transfer learning. This work's base assumption is that Transfer learning can obtain a not-bad model in limited time.
@@ -45,7 +47,18 @@ This is the latest review of NAS.
     - 2018.09.07 [Reinforced Evolutionary Neural Architecture Search](https://arxiv.org/pdf/1808.00193.pdf)
 
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
-    This paper proposed a new idea removing oldest individual rather than worest performance individual in order to recive wider search ability.  
+    This paper proposed a new idea removing oldest individual rather than worest performance individual in order to gain wider search ability.  
+    
+    - 2018.10.08 [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/abs/1810.03522)  
+    This paper proposed a NAS framework based on MOEA. 
+
+    - 2018.10.10 [Automatic Configuration of Deep Neural Networks with Parallel Efficient Global Optimization](https://arxiv.org/pdf/1810.05526.pdf)
+    
+    - 2018.10.12 [Graph Hypernetworks for Neural Architecture Search](https://arxiv.org/pdf/1810.05749.pdf)
+    
+    - 2018.10.16 [Evolutionary Stochastic Gradient Descent for Optimization of Deep Neural Networks](https://arxiv.org/pdf/1810.06773.pdf)
+
+   
 
 1. Translation lgtm articles  
 None
