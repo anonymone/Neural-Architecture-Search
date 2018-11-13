@@ -27,7 +27,21 @@ In NAS, We can divide it into EA(GA) + NAS, RL + NAS(and so on...I am going to s
 This is the latest review of NAS.
 
 ## 3.Papers
-This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions! :cake:
+This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions! :cake:  
+
+# 1. Semi-automatic CNN Architecture Design Algorithms
+* 2017.03.04, ICCV [Genetic CNN](https://arxiv.org/abs/1703.01513)
+* 2018.02.22, ICLR [Hierarchical Representations for Efficient Architecture Search](https://arxiv.org/abs/1711.00436)
+* 2017.11.21, AAAI [Efficient Architecture Search by Network Transformation](https://arxiv.org/abs/1707.04873)
+* 2018.05.14, CVPR [Practical Block-wise Neural Network Architecture Generation](https://arxiv.org/abs/1708.05552)
+
+# 2. The Completely Automatic Ones 
+* 2017.06.11, ICML [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)
+* 2017.08.11, GECCO [A Genetic Programming Approch to Designing Convolutional Neural Architectures](https://arxiv.org/abs/1704.00764)
+* 2017.02.15, ICLR [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/abs/1611.01578)
+* 2017.03.22, ICLR [Designing Neural Network Architectures using Reinforcement Learning](https://arxiv.org/abs/1611.02167)
+* 1996, Oxford university press [Evolutionary Algorithms in Theory and Practice: Evolution Strategies, Evolutionary Programming, Genetic Algorithms](https://books.google.com/books?hl=zh-CN&lr=&id=htJHI1UrL7IC&oi=fnd&pg=PR9&dq=Evolutionary+Algorithms+in+Theory+and+Practice:+Evolution+Strategies,+Evolutionary+Programming,+Genetic+Algorithms&ots=fApX2PVCkQ&sig=ipkk4P_SK9BcSD5Nilt1Ng4N6Dw#v=onepage&q=Evolutionary%20Algorithms%20in%20Theory%20and%20Practice%3A%20Evolution%20Strategies%2C%20Evolutionary%20Programming%2C%20Genetic%20Algorithms&f=false)
+* 1998 [Reinforcement Learning: An Introduction](https://books.google.com/books?hl=zh-CN&lr=&id=uWV0DwAAQBAJ&oi=fnd&pg=PR7&dq=Reinforcement+learning:+an+introduction&ots=mhrFu402i9&sig=T_cd_oEU13DmBKKGHjR2APyKP5g#v=onepage&q=Reinforcement%20learning%3A%20an%20introduction&f=false)
 
 1. Read notes
     - 2018.02.12, ICML2018, [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/abs/1802.03268)  
