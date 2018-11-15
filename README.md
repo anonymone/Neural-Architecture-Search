@@ -56,9 +56,9 @@ This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions! :
 1. arXiv
     - 2018.08.30 [Searching Toward Pareto-Optimal Device-Aware Neural Architectures](https://arxiv.org/pdf/1808.09830.pdf)
 
-    - 2018.09.05 [Neural Architecture Optimization](https://arxiv.org/pdf/1808.07233.pdf)
+    - 2018.09.05 [Neural Architecture Optimization](https://arxiv.org/abs/1808.07233)
 
-    - 2018.09.07 [Reinforced Evolutionary Neural Architecture Search](https://arxiv.org/pdf/1808.00193.pdf)
+    - 2018.09.07 [Reinforced Evolutionary Neural Architecture Search](https://arxiv.org/abs/1808.00193)
 
     - 2018.10.04 [Aging Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548)  
     This paper proposed a new idea removing oldest individual rather than worest performance individual in order to gain wider search ability.  
@@ -66,11 +66,11 @@ This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions! :
     - 2018.10.08 [NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search](https://arxiv.org/abs/1810.03522)  
     This paper proposed a NAS framework based on MOEA. 
 
-    - 2018.10.10 [Automatic Configuration of Deep Neural Networks with Parallel Efficient Global Optimization](https://arxiv.org/pdf/1810.05526.pdf)
+    - 2018.10.10 [Automatic Configuration of Deep Neural Networks with Parallel Efficient Global Optimization](https://arxiv.org/abs/1810.05526)
     
-    - 2018.10.12 [Graph Hypernetworks for Neural Architecture Search](https://arxiv.org/pdf/1810.05749.pdf)
+    - 2018.10.12 [Graph Hypernetworks for Neural Architecture Search](https://arxiv.org/abs/1810.05749)
     
-    - 2018.10.16 [Evolutionary Stochastic Gradient Descent for Optimization of Deep Neural Networks](https://arxiv.org/pdf/1810.06773.pdf)
+    - 2018.10.16 [Evolutionary Stochastic Gradient Descent for Optimization of Deep Neural Networks](https://arxiv.org/abs/1810.06773)
 
    
 
