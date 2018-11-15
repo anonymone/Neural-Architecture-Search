@@ -29,13 +29,13 @@ This is the latest review of NAS.
 ## 3.Papers
 This block is collated by Jinwen Pan(潘婧文). Thanks for her contributions! :cake:  
 
-# 1. Semi-automatic CNN Architecture Design Algorithms
+### 1. Semi-automatic CNN Architecture Design Algorithms
 * 2017.03.04, ICCV [Genetic CNN](https://arxiv.org/abs/1703.01513)
 * 2018.02.22, ICLR [Hierarchical Representations for Efficient Architecture Search](https://arxiv.org/abs/1711.00436)
 * 2017.11.21, AAAI [Efficient Architecture Search by Network Transformation](https://arxiv.org/abs/1707.04873)
 * 2018.05.14, CVPR [Practical Block-wise Neural Network Architecture Generation](https://arxiv.org/abs/1708.05552)
 
-# 2. The Completely Automatic Ones 
+### 2. The Completely Automatic Ones 
 * 2017.06.11, ICML [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)
 * 2017.08.11, GECCO [A Genetic Programming Approch to Designing Convolutional Neural Architectures](https://arxiv.org/abs/1704.00764)
 * 2017.02.15, ICLR [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/abs/1611.01578)
