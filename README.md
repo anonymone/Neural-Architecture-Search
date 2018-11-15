@@ -74,21 +74,21 @@ In this part, some of the papers just showed will be saw by you again.
 
 * Semi-automatic CNN Architecture Design Algorithms
     - 2017.03.04, ICCV [Genetic CNN](https://arxiv.org/abs/1703.01513)
+   
+    - 2017.11.21, AAAI [Efficient Architecture Search by Network Transformation](https://arxiv.org/abs/1707.04873)
 
     - 2018.02.22, ICLR [Hierarchical Representations for Efficient Architecture Search](https://arxiv.org/abs/1711.00436)
-
-    - 2017.11.21, AAAI [Efficient Architecture Search by Network Transformation](https://arxiv.org/abs/1707.04873)
 
     - 2018.05.14, CVPR [Practical Block-wise Neural Network Architecture Generation](https://arxiv.org/abs/1708.05552)
 
 * The Completely Automatic Ones 
-    - 2017.06.11, ICML [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)
-
-    - 2017.08.11, GECCO [A Genetic Programming Approch to Designing Convolutional Neural Architectures](https://arxiv.org/abs/1704.00764)
-
     - 2017.02.15, ICLR [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/abs/1611.01578)
 
     - 2017.03.22, ICLR [Designing Neural Network Architectures using Reinforcement Learning](https://arxiv.org/abs/1611.02167)
+
+    - 2017.06.11, ICML [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)
+
+    - 2017.08.11, GECCO [A Genetic Programming Approch to Designing Convolutional Neural Architectures](https://arxiv.org/abs/1704.00764)
 
     - 1996, Oxford university press [Evolutionary Algorithms in Theory and Practice: Evolution Strategies, Evolutionary Programming, Genetic Algorithms](https://books.google.com/books?hl=zh-CN&lr=&id=htJHI1UrL7IC&oi=fnd&pg=PR9&dq=Evolutionary+Algorithms+in+Theory+and+Practice:+Evolution+Strategies,+Evolutionary+Programming,+Genetic+Algorithms&ots=fApX2PVCkQ&sig=ipkk4P_SK9BcSD5Nilt1Ng4N6Dw#v=onepage&q=Evolutionary%20Algorithms%20in%20Theory%20and%20Practice%3A%20Evolution%20Strategies%2C%20Evolutionary%20Programming%2C%20Genetic%20Algorithms&f=false)
 
