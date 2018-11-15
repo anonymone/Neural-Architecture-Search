@@ -69,7 +69,9 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
     - 2018.10.31 [Neural Architecture Optimization](https://arxiv.org/abs/1808.07233)
 
-#### Another Way of Dividing: *Semi-automatic or Automatic*
+#### Another Way of Dividing: *Semi-automatic or Automatic* 
+In this part, some of the papers just showed will be saw by you again.
+
 * Semi-automatic CNN Architecture Design Algorithms
     - 2017.03.04, ICCV [Genetic CNN](https://arxiv.org/abs/1703.01513)
 
