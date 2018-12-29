@@ -5,8 +5,8 @@
 * [1. NAS introdction](#introduction)
 * [2. NAS reviews](#reviews)
 * [3. NAS Papers](#papers)
-    * [Evolutionary Algorithms](#Evolutionary-Algorithms(EA))
-    * [Reinforcement Learning](#Reinforcement-Learning(RL))
+    * [Evolutionary Algorithms](#Evolutionary-Algorithms)
+    * [Reinforcement Learning](#Reinforcement-Learning)
     * [Others](#Others)
 
 
@@ -21,7 +21,7 @@ This is the latest review of NAS.
 ## Papers
 This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! :cake:  
 
-### Evolutionary Algorithms(EA)
+### Evolutionary Algorithms
 - 2017.03.04 __Evolving Deep Neural Networks__ [[paper]](https://arxiv.org/abs/1703.00548)
 
 - 2017.03.04 ICCV'2017 __Genetic CNN__ [[paper]](https://arxiv.org/abs/1703.01513) [[code]](https://github.com/aqibsaeed/Genetic-CNN)
@@ -43,7 +43,7 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 - 2018.10.26 __Regularized Evolution for Image Classifier Architecture Search__ [[paper]](https://arxiv.org/abs/1802.01548)
 
 
-### Reinforcement Learning(RL)
+### Reinforcement Learning
 - 2017.02.15 __ICLR2017, Neural Architecture Search with Reinforcement Learning__ [[paper]](https://arxiv.org/abs/1611.01578)
 
 - 2017.03.22 ICLR'2017 __Designing Neural Network Architectures using Reinforcement Learning__ [[paper]](https://arxiv.org/abs/1611.02167)
