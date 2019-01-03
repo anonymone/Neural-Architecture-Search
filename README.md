@@ -1,4 +1,4 @@
-# Network Architecture Search 
+# Neural Architecture Search 
 
 
 ## Table of contents
@@ -11,12 +11,11 @@
 
 
 ## Introduction 
-NAS can be seen as subfield of [AutoML](https://www.ml4aad.org/automl/) and has signicant overlap with hyper-parameter optimization and meta-learning.
+Neural Architecture Search can be seen as subfield of [AutoML](https://www.ml4aad.org/automl/) and has signicant overlap with hyper-parameter optimization and meta-learning.
 In NAS, We can divide it into EA(GA) + NAS, RL + NAS(and so on...I am going to summarize them).
 
 ## Reviews
 * 09.08, 2018 [Neural Architecture Search: A Survey](https://arxiv.org/abs/1808.05377)  
-This is the latest review of NAS.
 
 ## Papers
 This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! :cake:  
@@ -76,5 +75,4 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
 - 2018.10.12 __Graph Hypernetworks for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.05749)
 
-- 2018.10.31 __Neural Architecture Optimization__ [[paper]](https://arxiv.org/abs/1808.07233)
 
