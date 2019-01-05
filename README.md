@@ -8,6 +8,7 @@
     * [Evolutionary Algorithms](#Evolutionary-Algorithms)
     * [Reinforcement Learning](#Reinforcement-Learning)
     * [Others](#Others)
+    * [Search Space Definition](#Search-Space-Definition)
 
 
 ## Introduction 
@@ -75,4 +76,5 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
 - 2018.10.12 __Graph Hypernetworks for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.05749)
 
-
+### Search Space Definition
+- 2018.12.27 __Neural Architecture Search Over a Graph Search Space__  [[paper]](https://arxiv.org/abs/1812.10666) 
