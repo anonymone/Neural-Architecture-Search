@@ -10,6 +10,7 @@
     * [Evolutionary Algorithms](#Evolutionary-Algorithms)
     * [Reinforcement Learning](#Reinforcement-Learning)
     * [Others](#Others)
+    * [Application](#application)
 
 
 ## Introduction 
@@ -26,7 +27,7 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 - 2019.02.25 __NAS-Bench-101: Towards Reproducible Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1902.09635v1) [[code]](https://github.com/google-research/nasbench)
 
 ### Search Space Definition
-- 2018.12.27 __Neural Architecture Search Over a Graph Search Space__  [[paper]](https://arxiv.org/abs/1812.10666)
+- 2018.12.27 ICLR 2019  __Neural Architecture Search Over a Graph Search Space__  [[paper]](https://arxiv.org/abs/1812.10666)
 
 ### Evolutionary Algorithms
 - 2017.03.04 __Evolving Deep Neural Networks__ [[paper]](https://arxiv.org/abs/1703.00548)
@@ -82,5 +83,8 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 - 2018.10.10 __Automatic Configuration of Deep Neural Networks with Parallel Efficient Global Optimization__ [[paper]](https://arxiv.org/abs/1810.05526)
 
 - 2018.10.12 __Graph Hypernetworks for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.05749)
+
+## Application 
+- 2019.01.24 __Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1901.07261)
 
  
