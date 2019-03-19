@@ -10,7 +10,7 @@
     * [Evolutionary Algorithms](#Evolutionary-Algorithms)
     * [Reinforcement Learning](#Reinforcement-Learning)
     * [Others](#Others)
-    * [Application](#application)
+* [Application](#application)
 
 
 ## Introduction 
