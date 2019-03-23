@@ -84,6 +84,8 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
 - 2018.10.12 __Graph Hypernetworks for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.05749)
 
+[[MORE Paper]](https://www.automl.org/automl/literature-on-neural-architecture-search/)
+
 ## Application 
 - 2019.01.24 __Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1901.07261)
 
