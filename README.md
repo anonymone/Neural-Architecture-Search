@@ -84,6 +84,8 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
 - 2018.10.12 __Graph Hypernetworks for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.05749)
 
+- 2019.04.02 __Exploring Randomly Wired Neural Networks for Image Recognition__ [[paper]](https://arxiv.org/abs/1904.01569) [[code]](https://github.com/seungwonpark/RandWireNN)
+
 [[MORE Paper]](https://www.automl.org/automl/literature-on-neural-architecture-search/)
 
 ## Application 
