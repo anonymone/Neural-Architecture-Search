@@ -87,6 +87,8 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
 - 2019.04.02 __Exploring Randomly Wired Neural Networks for Image Recognition__ [[paper]](https://arxiv.org/abs/1904.01569) [[code]](https://github.com/seungwonpark/RandWireNN)
 
+- 2019.5.23 __Multinomial Distribution Learning for Effective Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1905.07529) [[code]](https://github.com/tanglang96/MDENAS)
+
 [[MORE Paper]](https://www.automl.org/automl/literature-on-neural-architecture-search/)
 
 ## Application 
