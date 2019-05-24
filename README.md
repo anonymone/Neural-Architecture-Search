@@ -38,18 +38,19 @@ This block is collated by Jingwen Pan(潘婧文). Thanks for her contributions! 
 
 - 2018.02.22 ICLR'2018 __Hierarchical Representations for Efficient Architecture Search__ [[paper]](https://arxiv.org/abs/1711.00436)
 
+- 2018.02.24 TEVC __Evolving Unsupervised Deep Neural Networks for Learning Meaningful Representations__ [[paper]](https://arxiv.org/abs/1712.05043v2)
+
 - 2018.06.04 ICLR'2018 __PPP-Net: Platform-aware Progressive Search for Pareto-optimal Neural Architectures__ [[paper]](https://openreview.net/forum?id=B1NT3TAIM)
 
 - 2018.07.24 __Efficient Multi-objective Neural Architecture Search via Lamarckian Evolution__ [[paper]](https://arxiv.org/abs/1804.09081)
 
 - 2018.07.26 __Progressive Neural Architecture Search__ [[paper]](http://arxiv.org/abs/1712.00559)
 
-- 2018.10.08 __NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.03522)  
+- 2018.10.08 GECCO'2019 __NSGA-NET: A Multi-Objective Genetic Algorithm for Neural Architecture Search__ [[paper]](https://arxiv.org/abs/1810.03522)  
 
 - 2018.10.16 __Evolutionary Stochastic Gradient Descent for Optimization of Deep Neural Networks__ [[paper]](https://arxiv.org/abs/1810.06773)
 
 - 2018.10.26 __Regularized Evolution for Image Classifier Architecture Search__ [[paper]](https://arxiv.org/abs/1802.01548)
-
 
 ### Reinforcement Learning
 - 2017.02.15 __ICLR2017, Neural Architecture Search with Reinforcement Learning__ [[paper]](https://arxiv.org/abs/1611.01578)
