@@ -21,9 +21,10 @@ The list includes the papers related to NAS I have read. All of them are grouped
 |Data|Title|Venue|Code|Notes|  
 |:---|:----:|:--:|:--:|:---:|
 |2018|[Neural Architecture Search Over a Graph Search Space](https://arxiv.org/abs/1812.10666)|-|-|This paper defined a search space on direct graph which is used to instruct the construction of networks.|
-|2017|[Genetic CNN](https://arxiv.org/abs/1703.01513)|ICCV|[Code](https://github.com/aqibsaeed/Genetic-CNN)|This paper proposed a binary string encoding strategy.|
+|2017|[Genetic CNN](https://arxiv.org/abs/1703.01513)|ICCV|[Tensorflow](https://github.com/aqibsaeed/Genetic-CNN)|This paper proposed a binary string encoding strategy.|
 |2017/18|[Efficient Architecture Search by Network Transformation](https://arxiv.org/abs/1707.04873)|AAAI|-|This paper Proposed a popular block based network definition method.|
 |2009|[A Hypercube-based Encoding for Evolving large-scale Neural Networks](https://ieeexplore.ieee.org/document/6792316/)|IEEE Artificial Life|-|This method use a extended CPPNs to encode the ANN.|
+|2006|[Evolutionary Design of Neural Network Architectures Using a Descriptive Encoding Language](https://ieeexplore.ieee.org/abstract/document/4016064)| IEEE TEVC| - | This paper proposed a human-readable and writable encoding method. |
 |2002|[Evolving Neural Networks through Augmenting Topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)| EC| -| [NEAT: An Awesome Approach to NeuroEvolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)|
 |1990|[Designing Neural Networks Using Genetic Algorithms with Graph Generation System](http://www.complex-systems.com/abstracts/v04_i04_a06/) | The Conference on Genetic Algorithms | - | This paper proposed a graph grammatical encoding and analysed the problems of the direct encoding method.|
 
@@ -41,7 +42,7 @@ The list includes the papers related to NAS I have read. All of them are grouped
 ### Evaluation Strategies
 |Data|Title|Venue|Code|Notes|  
 |:---|:----:|:--:|:--:|:---:|
-|2018|[Progressive Neural Architecture Search](http://arxiv.org/abs/1712.00559)|ECCV|[Pytorch](https://github.com/chenxi116/PNASNet.pytorch) [Tensorflow](https://github.com/chenxi116/PNASNet.TF)| This paper use a predictor to evaluate the acc of each network with few real trainnig.|
+|2018|[Progressive Neural Architecture Search](http://arxiv.org/abs/1712.00559)|ECCV|[Pytorch](https://github.com/chenxi116/PNASNet.pytorch) [Tensorflow](https://github.com/chenxi116/PNASNet.TF)| This paper use a predictor to evaluate the acc of each network with few real training.|
 
 ### Extension
 |Data|Title|Venue|Code|Notes|  
