@@ -26,6 +26,11 @@ The list includes the papers related to NAS I have read. All of them are grouped
 |2009|[A Hypercube-based Encoding for Evolving large-scale Neural Networks](https://ieeexplore.ieee.org/document/6792316/)|IEEE Artificial Life|-|This method use a extended CPPNs to encode the ANN.|
 |2006|[Evolutionary Design of Neural Network Architectures Using a Descriptive Encoding Language](https://ieeexplore.ieee.org/abstract/document/4016064)| IEEE TEVC| - | This paper proposed a human-readable and writable encoding method. |
 |2002|[Evolving Neural Networks through Augmenting Topologies](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)| EC| -| [NEAT: An Awesome Approach to NeuroEvolution](https://towardsdatascience.com/neat-an-awesome-approach-to-neuroevolution-3eca5cc7930f)|
+|1998| [Network Generating Attribute grammar Encoding](https://ieeexplore.ieee.org/abstract/document/682305/) | IJCNN | - | Grammar Encoding |
+|1996| [A comparison between cellular encoding and direct encoding for genetic neural networks](https://dl.acm.org/citation.cfm?id=1595547) | - | - | This paper compared the celluar encoding and direct encoding methods |
+|1996|[Evolving Graphs and Networks with Edge encoding: preliminary report](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.9718&rep=rep1&type=pdf)| The Genetic Programming Conference | - | Edge Encoding method. |
+|1994 | [Neurogenetic learning: an integrated method of designing and training neural networks using genetic algorithms](https://www.sciencedirect.com/science/article/abs/pii/0167278994902852) | Physica D | - | This paper inspired by L-System. |
+|1994| [Automatic definition of modular neural networks](https://journals.sagepub.com/doi/abs/10.1177/105971239400300202) | Adaptive behavior | - | - |
 |1990|[Designing Neural Networks Using Genetic Algorithms with Graph Generation System](http://www.complex-systems.com/abstracts/v04_i04_a06/) | The Conference on Genetic Algorithms | - | This paper proposed a graph grammatical encoding and analysed the problems of the direct encoding method.|
 
 ### Search Strategies
